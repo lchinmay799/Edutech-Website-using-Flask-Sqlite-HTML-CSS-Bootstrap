@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>EduTech</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='custom.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-image: url('/static/background.jpeg');">
+
+<div class="jumbotron text-center" style="background-color:blue";>
+  <h1 style="color: white;font-weight: bold;text-shadow: 0px 1px, 1px 0px, 1px 1px;font-family: 'Cottonwood', Times, serif;">EduTech</h1>
+  <p style="color: white;">Enjoy Your Studies ...</p>
+  <img src="/static/logo.png" class="logo">
+</div>
+<div class="btn-group" style="background-color: blue;position: absolute;right: 0px;width: 1900px;">
+
+  <a href="signup"><button>Sign Up</button></a>
+  <a href="login"><button>Sign In</button></a>
+  <a href="#board"><button>Board</button></a>
+  <a href="#course"><button>Course</button></a>
+  <a href="#live"><button>Live Class</button></a>
+  <a href="#jee"><button>JEE</button></a>
+  <a href="#neet"><button>NEET</button></a>
+  <a href="#question"><button>Upload Question</button></a>
+</div>
+<br><br>
+<marquee><p style="background-color: {{color}};color:white;font-size: 25px;font-weight: bold;">{{message}}</p></marquee>
+<br><br><br><br><br><br><br><br>
+<div class="col-sm-3">
+<img src="/static/1.png" class="img-responsive" alt="Cinque Terre" width="350" height="250"><br>
+    </div>
+<div class="col-sm-3">
+<img src="/static/2.png" class="img-responsive" alt="Cinque Terre" width="350" height="250"><br>
+    </div>
+<div class="col-sm-3">
+<img src="/static/3.png" class="img-responsive" alt="Cinque Terre" width="350" height="250"><br>
+    </div>
+<div class="col-sm-3">
+<img src="/static/4.png" class="img-responsive" alt="Cinque Terre" width="350" height="250"><br>
+    </div>
+
+<br><br><br><br><br><br><br><br><br><br>
+<div class="jumbotron text-center" style="background-color: white" id="doubt">
+  <h1 style="color: blue;font-weight: bold;display: inline;text-shadow: 0px 1px, 1px 0px, 1px 1px;">Solve your doubts</h1><h1 style="color: red;font-weight: bold; display: inline;text-shadow: 0px 1px, 1px 0px, 1px 1px;" align="right"> Faster</h1>
+</div>
+
+<img src="/static/doubts.jpg" class="logo2" width="400" height="400">
+<img src="/static/network.jpeg" width="150" height="150" class="symbols"><br><h2 style="color: blue;font-weight: bold;display: inline;position: absolute;left: 400px;text-shadow: 0px 1px, 1px 0px, 1px 1px;">Accessible from</h2><h2 style="color: red;font-weight: 1000; display: inline;position: absolute;left: 650px;text-shadow: 0px 1px, 1px 0px, 1px 1px;" align="right"> Anywhere</h2>
+<br><br><br><br><br><br><br><br><br>
+<img src="/static/video.jpeg" width="150" height="150" class="symbols"><br><h2 style="color: red;font-weight: bold;display: inline;position: absolute;left: 400px;text-shadow: 0px 1px, 1px 0px, 1px 1px;">100 Million +</h2><h2 style="color: blue;font-weight: bold; display: inline;position: absolute;left: 595px;text-shadow: 0px 1px, 1px 0px, 1px 1px;" align="right"> Videos to clear your doubts</h2>
+<br><br><br><br><br><br><br><br><br>
+
+<div class="jumbotron text-center" style="background-color: white" id="board">
+  <h2 style="color: blue;font-weight: bold;font-size: 60px;">Select your Board</h2>
+  <h2 style="color: red;font-weight: bold;font-size: 30px;">Learn your board syllabus from the best teachers with us</h2>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+<img src="/static/cbse.png" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br><br><br><br><br>
+<center><h3>CBSE</h3></center>
+    </div>
+    <div class="col-sm-2">
+<img src="/static/assam.png" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br><br><br><br><br>
+<center><h3>Assam</h3></center>
+    </div>
+    <div class="col-sm-2">
+<img src="/static/himachal.png" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br>
+<center><h3>Himachal Pradesh</h3></center>
+    </div>
+<div class="col-sm-2">
+<img src="/static/tamilnadu.png" class="img-responsive" alt="Cinque Terre" width="150" height="150"><br>
+<center><h3>Tamil Nadu</h3></center>
+    </div>
+        <div class="col-sm-2">
+<img src="/static/maharashtra.jpg" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br><br><br><br><br>
+<center><h3>Maharashtra</h3></center>
+    </div>
+        <div class="col-sm-2">
+<img src="/static/delhi.jpg" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br><br><br><br>
+<center><h3>Delhi</h3></center><p style="float: right">View All</p>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br>
+
+<div class="jumbotron text-center" style="background-color: white" id="live">
+  <h1 style="color: red;font-weight: bold;display: inline;text-shadow: 0px 1px, 1px 0px, 1px 1px;">LIVE</h1><h1 style="color: blue;font-weight: bold; display: inline;text-shadow: 0px 1px, 1px 0px, 1px 1px;" align="right"> CLASSES</h1>
+</div>
+<a href="https://www.youtube.com/watch?v=Ke9X0KTHYvI"><img src="/static/live.jpeg" width="800" height="500" class="live"></a>
+<a href="https://www.youtube.com/watch?v=Ke9X0KTHYvI"><img src="/static/pause.jpeg" width="100" height="100" class="pause"></a>
+</div>
+<div class="/static/description">
+<img src="/static/network.jpeg" width="150" height="150" class="symbols2"><h2 style="color: blue;font-weight: bold;display: inline;position: absolute;left: 1400px;top:2260px;text-shadow: 0px 1px, 1px 0px, 1px 1px;">Access</h2><h2 style="color: blue;font-weight: bold;display: inline;position: absolute;left: 1520px;top:2260px;text-shadow: 0px 1px, 1px 0px, 1px 1px;"> from</h2><h2 style="color: red;font-weight: 1000; display: inline;position: absolute;left: 1600px;top:2260px;text-shadow: 0px 1px, 1px 0px, 1px 1px;" align="right"> Anywhere</h2><br><br>
+<img src="/static/teacher.jpeg" width="150" height="150" class="symbols3"><h2 style="color: red;font-weight: bold;display: inline;position: absolute;left: 1400px;top:2440px;text-shadow: 0px 1px, 1px 0px, 1px 1px;">Expert</h2><h2 style="color: blue;font-weight: 1000; display: inline;position: absolute;left: 1520px;top:2440px;text-shadow: 0px 1px, 1px 0px, 1px 1px;" align="right"> Teachers</h2><br><br>
+<img src="/static/video.jpeg" width="150" height="150" class="symbols4"><h2 style="color: red;font-weight: bold;display: inline;position: absolute;left: 1400px;top:2620px;text-shadow: 0px 1px, 1px 0px, 1px 1px;">Interactive </h2><h2 style="color: blue;font-weight: 1000; display: inline;position: absolute;left: 1600px;top:2620px;text-shadow: 0px 1px, 1px 0px, 1px 1px;" align="right"> Sessions</h2><br><br></div>
+<br><br><br><br><br><br><br><br>
+
+<div class="jumbotron text-center" style="background-color: white" id="jee">
+  <h1 style="color: blue;font-weight: bold;display: inline;text-shadow: 0px 1px, 1px 0px, 1px 1px;">PREPARE FOR</h1><h1 style="color: red;font-weight: bold; display: inline;text-shadow: 0px 1px, 1px 0px, 1px 1px;" align="right"> JEE</h1>
+</div>
+<a href="https://www.youtube.com/watch?v=Ke9X0KTHYvI"><img src="/static/jee.jpg" width="800" height="500" class="live"></a>
+<a href="https://www.youtube.com/watch?v=Ke9X0KTHYvI"><img src="/static/pause.jpeg" width="100" height="100" class="pause"></a>
+</div>
+<div class="description2">
+<h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;">Access to Multilingual explanations</h2> <br><br><h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;">to Most Important and Confusing Concepts</h2><br><br><h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;"> in every Subject by </h2><br><br><h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;"> the Best Teachers from anywhere</h2>
+<br><br><h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;"> Around the World </h2><button class="button" style="position: relative;right: 250px;">Register</button></div>
+<br><br>
+
+<div class="jumbotron text-center" style="background-color: white" id="neet">
+  <h1 style="color: blue;font-weight: bold;display: inline;text-shadow: 0px 1px, 1px 0px, 1px 1px;">PREPARE FOR </h1><h1 style="color: blue;font-weight: bold; display: inline;text-shadow: 0px 1px, 1px 0px, 1px 1px;" align="right"> NEET</h1>
+</div>
+
+<a href="https://www.youtube.com/watch?v=Ke9X0KTHYvI"><img src="/static/neet.jpeg" width="800" height="500" class="live"></a>
+<a href="https://www.youtube.com/watch?v=Ke9X0KTHYvI"><img src="/static/pause.jpeg" width="100" height="100" class="pause"></a>
+</div>
+<div class="description3">
+<h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;">Access to Multilingual explanations</h2> <br><br><h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;">to Most Important and Confusing Concepts</h2><br><br><h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;"> in every Subject by </h2><br><br><h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;"> the Best Teachers from anywhere</h2>
+<br><br><h2 style="color: black;font-weight: bold;display: inline;position: relative;left: 200px;text-shadow: 0px 1px, 1px 0px, 1px 1px;"> Around the World </h2><br><button class="button">Register</button></div>
+
+<br>
+
+  <div class="jumbotron text-center" style="background-color: white" id="course">
+  <h2 style="color: blue;font-weight: bold;font-size: 60px;">Select the Subject</h2>
+  <p style="color: red;font-size: 30px;">Learn your favorite Subjects from the best teachers</p>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+<img src="/static/physics.jpeg" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br>
+<center><h3>Physics</h3></center>
+    </div>
+    <div class="col-sm-2">
+<img src="/static/maths.png" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br>
+<center><h3>Mathematics</h3></center>
+    </div>
+    <div class="col-sm-2">
+<img src="/static/english.png" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br><br><br><br><br>
+<center><h3>English</h3></center>
+    </div>
+        <div class="col-sm-2">
+<img src="/static/economics.jpg" class="img-responsive" alt="Cinque Terre" width="150" height="150"><br>
+<center><h3>Economics</h3></center>
+    </div>
+        <div class="col-sm-2">
+<img src="/static/chemistry.jpg" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br>
+<center><h3>Chemistry</h3></center>
+    </div>
+        <div class="col-sm-2">
+<img src="/static/cs.jpg" class="img-responsive" alt="Cinque Terre" width="200" height="200"><br><br><br>
+<center><h3>Computer Science</h3></center><p style="float: right">View All</p>
+    </div>
+  </div>
+</div>
+<br><br><br><br>
+
+<div class="jumbotron text-center" id="question">
+  <h2 style="color:blue;font-size: 60px;font-weight: bold;background-image: url('/static/background.jpeg');">How to Proceed  ? </h2>
+</div>
+<div class="container">
+  <div class="row">
+<div class="col-sm-4">
+<img src="/static/doubt.jpeg" class="img-responsive" alt="Cinque Terre" width="250" height="200"><br><br><br>
+<center><h3 style="font-weight: bold;">Step 1 : </h3></center>
+<center><h3 style="font-weight: bold;">Have a Doubt ?</h3></center>
+    </div>
+    
+<div class="col-sm-4">
+<img src="/static/upload.jpg" class="img-responsive" alt="Cinque Terre" width="250" height="200"><br><br><br>
+<center><h3 style="font-weight: bold;">Step 2 : </h3></center>
+<center><h3 style="font-weight: bold;">Type your Question</h3></center>
+<center><h3 style="font-weight: bold;">OR</h3></center>
+<center><h3 style="font-weight: bold;">Upload the Picture</h3></center>
+    </div>
+    
+<div class="col-sm-4">
+<img src="/static/answer.jpeg" class="img-responsive" alt="Cinque Terre" width="250" height="240"><br><br><br>
+<center><h3 style="font-weight: bold;">Step 3 : </h3></center>
+<center><h3 style="font-weight: bold;">Get your Solution !</h3></center>
+    </div>
+      </div>
+</div>
+<center><a href="question"><button class="button" style="position: relative;top: 100px;">Ask Question</button></a></center>
+</body>
+</html>

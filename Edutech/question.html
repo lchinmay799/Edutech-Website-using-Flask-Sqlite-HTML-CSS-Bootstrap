@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='custom.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-image: url('/static/background.jpeg');">
+	<script type="text/javascript">
+	$(document).ready(function() {
+    var text_max = 500;
+    $('#counter').html(text_max + ' /500');
+
+    $('#textarea').keyup(function() {
+        var text_length = $('#textarea').val().length;
+        var text_remaining = Math.max(0,text_max - text_length);
+        $('#counter').html(text_remaining + ' /500');
+    });
+});
+	</script>
+	<button class="button3" onclick="document.getElementById('file').click()">Upload Photo</button>
+	<form method="post" action="submit_question">
+		<br><br><br>
+		<div class="subjects">
+	 <label for="cars">Choose Subject:</label>
+<select name="subject" id="subjects">
+  <option value="1">Physics</option>
+  <option value="2">Chemistry</option>
+  <option value="3">Mathematics</option>
+  <option value="4">Computer Science</option>
+    <option value="5">Economics</option>
+  <option value="6">Accountancy</option>
+  <option value="7">Biology</option>
+  <option value="8">History</option>
+    <option value="9">Geography</option>
+  <option value="10">Java</option>
+  <option value="11">Python</option>
+  <option value="12">Database Management System</option>
+</select> </div> 	
+	<input type="file" name="file" id="file" style="display: none">
+	<center><div id="counter" style="font-size: 20px; color: red;font-weight: bold;">500</div><textarea class="textarea" name="question" maxlength=500 id="textarea" placeholder="What's your Question ? "></textarea></center><br><br><br>
+	<center><input type="submit" name="submit" class="button2"></center>
+</form>
+</body>
+</html>

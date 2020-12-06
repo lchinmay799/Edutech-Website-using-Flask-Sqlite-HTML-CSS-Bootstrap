@@ -1,0 +1,369 @@
+.img-responsive {
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
+  border:2px solid #fff;
+  background: url(img/duck.png) no-repeat;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;
+  cursor: pointer;
+}
+.button2
+{
+    background-color: red;
+    border: 5px solid white;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 350px;
+    height: 100px;
+}
+.marque
+{
+  background-color: green;
+  color: white;
+  font-size: 50px;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.p
+{
+  color: blue;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  font-size: 30px;
+}
+.button3
+{
+  position: relative;
+  left: 400px;
+  top: 100px;
+    background-color: red;
+    border: 5px solid white;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 175px;
+    height: 50px;
+}
+.subjects
+{
+  position: relative;
+  left: 60%;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+ .textarea {
+  width: 60%;
+  height: 750px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 12px solid blue;
+  border-radius: 54px;
+  font-size: 25px;
+  background-color: white;
+  resize: none;
+}
+.live {
+    position: relative;
+    left: 50px;
+    transition: all 0.50s;
+  border:20px solid white;
+  background: url(img/duck.png) no-repeat;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  border-radius:100px;
+  cursor: pointer;
+}
+.pause {
+    position: relative;
+    left: -400px;
+    transition: all 0.50s;
+  border:5px solid grey;
+  background: url(img/duck.png) no-repeat;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  border-radius:190px;
+  cursor: pointer;
+}
+#board{
+    background-image: url('background.jpeg');
+    }
+#course
+{
+    background-image: url('background.jpeg');
+    }
+#question{
+        background-image: url('background.jpeg');
+}
+#live{
+        background-image: url('background.jpeg');
+}
+#jee{
+        background-image: url('background.jpeg');
+}
+#neet{
+        background-image: url('background.jpeg');
+}
+#doubt{
+        background-image: url('background.jpeg');
+}
+.button{
+    position: relative;
+    top: 400px;
+    background-color: red;
+    border: 5px solid white;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 350px;
+    height: 100px;
+}
+
+ .img-responsive:hover {
+        border: 1px solid gray;
+        filter: brightness(130%);
+        -webkit-filter: brightness(130%);
+        -moz-filter: brightness(130%);
+        -o-filter: brightness(130%);
+        -ms-filter: brightness(130%);
+        -webkit-transition: all 0.50s;
+        transition: all 0.50s;
+}
+.container
+{
+    color:red;
+    font-weight: bold;
+}
+.logo
+{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    border:2px solid #fff;
+    border-radius:190px;
+}
+.btn-group button
+{
+    
+  background-color: blue; 
+  border: 1px solid blue; 
+  color: white;
+  font-weight: bold; 
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left;
+}
+.btn-group button:hover {
+  background-color: white;
+  color: blue;
+}
+.symbols {
+    position: absolute;
+    left: 100px;
+    border:2px solid #fff;
+    border-radius:190px;
+}
+.symbols2 {
+    border:2px solid #fff;
+    border-radius:190px;
+    position: absolute;
+    top: 2200px;
+    left: 1200px;
+}
+.symbols3 {
+    border:2px solid #fff;
+    border-radius:190px;
+    position: absolute;
+    top: 2380px;
+    left: 1200px;
+}
+.symbols4 {
+    border:2px solid #fff;
+    border-radius:190px;
+    position: absolute;
+    top: 2580px;
+    left: 1200px;
+}
+.description{
+    position: absolute;
+    top: 2100px;
+    right: 350px;
+}
+.description2{
+    position: relative;
+    top: -450px;
+    left: 850px;
+}
+.description3{
+    position: relative;
+    top: -450px;
+    left: 850px;
+}
+.logo2
+{
+    position: absolute;
+    right: 100px;
+    border:2px solid #fff;
+    border-radius:190px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.button:hover {
+  opacity: 0.7;
+}
+
+.cancelbtn {
+  width: 100px;
+  padding: 10px 18px;
+  background-color: red;
+}
+.cancel
+{
+    width: 600px;
+  padding: 10px 18px;
+   
+}
+.signup{
+    left: 600px;
+    width: 600px;
+    height:40px;
+    color:white;
+  background-color: blue;
+}
+.signup:hover{
+    left: 600px;
+    width: 600px;
+    width: 600px;
+    height:40px;
+    color:blue;
+  background-color: white; 
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+.login{
+    width: 1200px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+}
+.login:hover {
+    width: 1200px;
+    height: 40px;
+    color: blue;
+    background-color: white;
+}
+.cancel{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: red;
+}
+.cancel:hover {
+    width: 120px;
+    height: 40px;
+    color: red;
+    background-color: white;
+}
+.cancel2 {
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: red;
+}
+.cancel2:hover {
+    width: 400px;
+    height: 40px;
+    color: red;
+    background-color: white;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.modal { 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 80%; 
+  height: 80%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
