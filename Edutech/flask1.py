@@ -8,7 +8,7 @@ app=Flask(__name__)
 @app.route('/')
 def index():
 	global conn
-	#conn=d.default_data()
+	conn=d.default_data()
 	return render_template("edutech.html")
 
 @app.route('/signup')
